@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xiaomi SU7 - Electric Performance Redefined</title>
+    <link rel="stylesheet" href="su7-styles-updated.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="logo">XIAOMI SU7</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#models">Models</a></li>
+            <li><a href="#specs">Specs</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#colors">Colors</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-slider">
+            <div class="hero-slide active">
+                <img src="hero.jpg" alt="Xiaomi SU7" class="hero-background">
+            </div>
+            <div class="hero-slide">
+                <img src="car 2.jpg" alt="Xiaomi SU7" class="hero-background">
+            </div>
+            <div class="hero-slide">
+                <img src="car 3.jpg" alt="Xiaomi SU7" class="hero-background">
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>XIAOMI SU7</h1>
+            <p>Electric Performance Redefined</p>
+            <a href="#models" class="cta-button">Explore Models</a>
+        </div>
+        <div class="slider-dots">
+            <span class="dot active" onclick="currentSlide(0)"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+        <button class="slider-arrow prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="slider-arrow next" onclick="changeSlide(1)">&#10095;</button>
+    </section>
+
+    <section class="section" id="models">
+        <h2 class="section-title">Choose Your Model</h2>
+        <div class="models-grid">
+            <div class="model-card">
+                <div class="model-image model-standard">
+                    <img src="hero.jpg" alt="Xiaomi SU7 Standard" class="model-photo">
+                    <div class="model-badge">STANDARD</div>
+                </div>
+                <div class="model-content">
+                    <h3>SU7 Standard</h3>
+                    <p>The perfect entry into electric luxury. Balanced performance with exceptional efficiency for
+                        everyday driving.</p>
+                    <div class="model-specs">
+                        <div class="spec-item">
+                            <span class="spec-label">Range:</span>
+                            <span class="spec-value">700 km</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Power:</span>
+                            <span class="spec-value">299 hp</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">0-100 km/h:</span>
+                            <span class="spec-value">5.28s</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="model-card">
+                <div class="model-image model-pro">
+                    <img src="car 2.jpg" alt="Xiaomi SU7 Pro" class="model-photo">
+                    <div class="model-badge">PRO</div>
+                </div>
+                <div class="model-content">
+                    <h3>SU7 Pro</h3>
+                    <p>Enhanced performance meets extended range. The ideal choice for those who demand more from their
+                        EV.</p>
+                    <div class="model-specs">
+                        <div class="spec-item">
+                            <span class="spec-label">Range:</span>
+                            <span class="spec-value">830 km</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Power:</span>
+                            <span class="spec-value">299 hp</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">0-100 km/h:</span>
+                            <span class="spec-value">5.7s</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="model-card">
+                <div class="model-image model-max">
+                    <img src="car 3.jpg" alt="Xiaomi SU7 Max" class="model-photo">
+                    <div class="model-badge">MAX</div>
+                </div>
+                <div class="model-content">
+                    <h3>SU7 Max</h3>
+                    <p>Ultimate performance flagship. Dual motor AWD delivering supercar acceleration with cutting-edge
+                        technology.</p>
+                    <div class="model-specs">
+                        <div class="spec-item">
+                            <span class="spec-label">Range:</span>
+                            <span class="spec-value">800 km</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Power:</span>
+                            <span class="spec-value">673 hp</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">0-100 km/h:</span>
+                            <span class="spec-value">2.78s</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="section" id="specs">
+        <h2 class="section-title">Technical Specifications</h2>
+        <div class="specs-grid">
+            <div class="spec-card">
+                <div class="spec-icon">⚡</div>
+                <h3>Powerful Performance</h3>
+                <p><strong>SU7 Max:</strong> Dual motor AWD system</p>
+                <p><strong>Total Power:</strong> 673 hp (495 kW)</p>
+                <p><strong>Peak Torque:</strong> 838 Nm</p>
+                <p><strong>Top Speed:</strong> 265 km/h</p>
+            </div>
+            <div class="spec-card">
+                <div class="spec-icon">🔋</div>
+                <h3>Battery Technology</h3>
+                <p><strong>Standard:</strong> 73.6 kWh battery</p>
+                <p><strong>Pro/Max:</strong> 101 kWh battery</p>
+                <p><strong>Fast Charging:</strong> 10-80% in 15 minutes</p>
+                <p><strong>Battery Type:</strong> CATL Qilin cells</p>
+            </div>
+
+            <div class="spec-card">
+                <div class="spec-icon">📏</div>
+                <h3>Dimensions</h3>
+                <p><strong>Length:</strong> 4,997 mm</p>
+                <p><strong>Width:</strong> 1,963 mm</p>
+                <p><strong>Height:</strong> 1,440 mm</p>
+                <p><strong>Wheelbase:</strong> 3,000 mm</p>
+            </div>
+
+            <div class="spec-card">
+                <div class="spec-icon">⚖️</div>
+                <h3>Weight Distribution</h3>
+                <p><strong>Distribution:</strong> 50:50 front-rear</p>
+                <p><strong>Center of Gravity:</strong> 443mm</p>
+                <p><strong>Curb Weight:</strong> ~2,200 kg</p>
+                <p><strong>Design:</strong> Optimized for handling</p>
+            </div>
+
+            <div class="spec-card">
+                <div class="spec-icon">🎯</div>
+                <h3>Efficiency</h3>
+                <p><strong>Energy Consumption:</strong> 12.3 kWh/100km</p>
+                <p><strong>Drag Coefficient:</strong> 0.195 Cd</p>
+                <p><strong>Regenerative Braking:</strong> Multi-level</p>
+                <p><strong>Efficiency Rating:</strong> Industry leading</p>
+            </div>
+
+            <div class="spec-card">
+                <div class="spec-icon">🛞</div>
+                <h3>Wheels & Brakes</h3>
+                <p><strong>Wheels:</strong> 19" / 20" / 21" options</p>
+                <p><strong>Tires:</strong> Michelin Pilot Sport EV</p>
+                <p><strong>Brakes:</strong> Bosch DPB system</p>
+                <p><strong>Calipers:</strong> 4-piston front</p>
+            </div>
+        </div>
+        <div class="video">
+            <section class="video-section">
+                <h2 class="section-title">Xiaomi SU7</h2>
+                <div class="video-container">
+                    <iframe width="100%" height="500" src="roadster-loop.mp4" title="Xiaomi SU7 Official Video"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; "
+                        allowfullscreen></iframe>
+                </div>
+            </section>
+    </section>
+
+    <section class="section" id="features">
+        <h2 class="section-title">Advanced Features</h2>
+        <div class="features-list">
+            <div class="feature-item">
+                <h3><span class="feature-icon">🚗</span> Smart Chassis Technology</h3>
+                <ul>
+                    <li>Bosch ESP 10.0 electronic stability control system</li>
+                    <li>CDC variable damping shock absorbers with 100% increased range</li>
+                    <li>Closed-loop air suspension with 100% faster adjustment speed</li>
+                    <li>5-link independent suspension for superior handling</li>
+                    <li>50:50 weight distribution for balanced dynamics</li>
+                    <li>Aluminum double wishbone front suspension</li>
+                </ul>
+            </div>
+
+            <div class="feature-item">
+                <h3><span class="feature-icon">🤖</span> Autonomous Driving</h3>
+                <ul>
+                    <li>Xiaomi Pilot Max autonomous driving system</li>
+                    <li>Dual NVIDIA Orin-X chips (508 TOPS computing power)</li>
+                    <li>11 high-resolution cameras including dual 8MP front cameras</li>
+                    <li>3 LiDAR sensors for 360° environmental detection</li>
+                    <li>City-wide navigation assisted driving</li>
+                    <li>Automatic parking in various scenarios</li>
+                </ul>
+            </div>
+
+            <div class="feature-item">
+                <h3><span class="feature-icon">📱</span> Smart Cockpit</h3>
+                <ul>
+                    <li>16.1" 3K central touchscreen display</li>
+                    <li>7.1" flip-up instrument cluster behind steering wheel</li>
+                    <li>56" HUD (Head-Up Display) with AR navigation</li>
+                    <li>Qualcomm Snapdragon 8295 chip for ultra-smooth operation</li>
+                    <li>HyperOS automotive system with seamless Xiaomi ecosystem</li>
+                    <li>Wireless CarPlay and Android Auto support</li>
+                </ul>
+            </div>
+
+            <div class="feature-item">
+                <h3><span class="feature-icon">🎵</span> Premium Audio</h3>
+                <ul>
+                    <li>25-speaker Dolby Atmos sound system (Max version)</li>
+                    <li>1,920W total audio power output</li>
+                    <li>7.1.4 surround sound configuration</li>
+                    <li>Immersive spatial audio experience</li>
+                    <li>Custom-tuned acoustics for cabin environment</li>
+                </ul>
+            </div>
+
+            <div class="feature-item">
+                <h3><span class="feature-icon">🔐</span> Safety Features</h3>
+                <ul>
+                    <li>5-star C-NCAP safety rating design</li>
+                    <li>Ultra-high-strength steel cage structure</li>
+                    <li>8 airbags including side curtain airbags</li>
+                    <li>Active emergency braking (AEB) system</li>
+                    <li>Lane departure warning and assistance</li>
+                    <li>Blind spot monitoring with rear cross-traffic alert</li>
+                </ul>
+            </div>
+
+            <div class="feature-item">
+                <h3><span class="feature-icon">🌐</span> Connectivity</h3>
+                <ul>
+                    <li>5G connectivity for real-time updates</li>
+                    <li>Seamless Xiaomi smart home integration</li>
+                    <li>Remote vehicle control via smartphone</li>
+                    <li>OTA updates for continuous improvement</li>
+                    <li>Smart key with phone and NFC card options</li>
+                    <li>Ultra-wideband (UWB) digital key technology</li>
+                </ul>
+            </div>
+
+            <div class="feature-item">
+                <h3><span class="feature-icon">💺</span> Comfort & Convenience</h3>
+                <ul>
+                    <li>Zero-gravity seats with heating, ventilation, and massage</li>
+                    <li>Electric adjustable front seats with memory function</li>
+                    <li>Panoramic glass roof with electric sunshade</li>
+                    <li>Ambient lighting with 256 colors</li>
+                    <li>Dual-zone automatic climate control</li>
+                    <li>PM2.5 air filtration system</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="colors">
+        <h2 class="section-title">Color Options</h2>
+        <div class="color-options">
+            <div class="color-card">
+                <div class="color-preview1">
+                    <img src="Galaxy Gray.jpg" alt="Galaxy Gray" class="color-image">
+                </div>
+                <h3>Galaxy Gray</h3>
+                <p>Sophisticated and timeless</p>
+            </div>
+            <div class="color-card">
+                <div class="color-preview2">
+                    <img src="Xiaomi-SU7-Brilliant-Magenta.jpg" alt="Twilight Red" class="color-image">
+                </div>
+                <h3>Twilight Red</h3>
+                <p>Bold and passionate</p>
+            </div>
+            <div class="color-card">
+                <div class="color-preview3">
+                    <img src="burlapcpar-xiaomi-cover.jpg" alt="Mist Purple" class="color-image">
+                </div>
+                <h3>Mist Purple</h3>
+                <p>Elegant and unique</p>
+            </div>
+            <div class="color-card">
+                <div class="color-preview4">
+                    <img src="Xiaomi SU7 Ultra 7.jpg" alt="Obsidian Black" class="color-image">
+                </div>
+                <h3>Obsidian Black</h3>
+                <p>Classic and powerful</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-main">
+                <div class="footer-logo">
+                    <h2>XIAOMI SU7</h2>
+                    <p>Electric Performance Redefined</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Vehicle</h4>
+                        <ul>
+                            <li><a href="#models">Models</a></li>
+                            <li><a href="#specs">Specifications</a></li>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#colors">Colors</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="https://www.mi.com/global/about/https://www.mi.com/global/about/">About Us</a>
+                            </li>
+                            <li><a href="https://www.mi.com/global/support/contact/">Contact</a></li>
+                            <li><a href="https://www.mi.com/global/careers/">Careers</a></li>
+                            <li><a href="https://www.mi.com/global/news/">Newsroom</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Support</h4>
+                        <ul>
+                            <li><a href="https://www.mi.com/global/support/user-guide/ ">User Guide</a></li>
+                            <li><a href="https://www.mi.com/global/support/warranty/">Warranty</a></li>
+                            <li><a href="https://www.mi.com/global/support/service-centers/">Service Centers</a></li>
+                            <li><a href="https://www.mi.com/global/support/faq/">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="creator-section">
+                <h3 class="creator-title">Website Creator</h3>
+                <div class="creator-card">
+                    <div class="creator-image">
+                        <img src="Mohamed.jpg" alt="Website Creator">
+                    </div>
+                    <div class="creator-info">
+                        <h4>Mohamed Atef</h4>
+                        <p class="creator-role">Full Stack Web Developer</p>
+                        <p class="creator-description">Passionate about creating stunning web experiences with modern
+                            technologies.</p>
+                        <div class="creator-socials">
+                            <a href="https://github.com/MuhammedAtef1" target="_blank" class="social-link"
+                                title="GitHub">
+                                <svg viewBox="0 0 24 24" width="24" height="24">
+                                    <path fill="currentColor"
+                                        d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                </svg>
+                            </a>
+                            <a href="https://www.linkedin.com/in/mohamed-atef-972120266/" target="_blank"
+                                class="social-link" title="LinkedIn">
+                                <svg viewBox="0 0 24 24" width="24" height="24">
+                                    <path fill="currentColor"
+                                        d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                                </svg>
+                            </a>
+
+                            <a href="https://www.instagram.com/muhammedd_a__/" target="_blank" class="social-link"
+                                title="Instagram">
+                                <svg viewBox="0 0 24 24" width="24" height="24">
+                                    <path fill="currentColor"
+                                        d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                                </svg>
+                            </a>
+                            <a href="mohamed2atef2015@gmail.com" class="social-link" title="Email">
+                                <svg viewBox="0 0 24 24" width="24" height="24">
+                                    <path fill="currentColor"
+                                        d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Xiaomi SU7. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="https://www.mi.com/global/support/policy/privacy-policy/">Privacy Policy</a> |
+                    <a href="https://www.mi.com/global/support/policy/terms-of-use/">Terms of Use</a> |
+                    <a href="https://www.mi.com/global/support/policy/cookie-policy/">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="su7-script.js"></script>
+</body>
